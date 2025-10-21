@@ -1,34 +1,22 @@
-from aiohttp import web
-import os
+import asyncio
+import multiprocessing
+import sys
+
+from peacepie import PeaceSystem
 
 
-async def handle(request):
-    name = request.match_info.get('name', 'World')
-    text = f"Hello, {name}!"
-    return web.Response(text=text)
+multiprocessing.set_start_method('spawn', force=True)
 
 
-async def health_check(request):
-    return web.json_response({"status": "healthy", "message": "Server is running"})
-
-
-async def home(request):
-    return web.Response(text="Welcome to my aiohttp server!")
-
-
-def create_app():
-    res = web.Application()
-    res.router.add_get('/', home)
-    res.router.add_get('/health', health_check)
-    res.router.add_get('/{name}', handle)
-    return res
+async def main():
+    param = sys.argv[1] if len(sys.argv) > 1 else {}
+    pp = PeaceSystem(param)
+    await pp.start()
+    try:
+        await pp.task
+    except asyncio.CancelledError:
+        pass
 
 
 if __name__ == '__main__':
-    app = create_app()
-    port = int(os.environ.get('PORT', 8080))
-    web.run_app(
-        app,
-        port=port,
-        host='0.0.0.0'
-    )
+    asyncio.run(main())

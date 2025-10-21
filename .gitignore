@@ -1,2 +1,5 @@
 .idea/
 __pycache__/
+/src/logs/
+/src/packages/
+/src/config/safe.cfg
