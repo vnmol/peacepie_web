@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: peacepie_web
-    env: python
-    plan: free
-    buildCommand: pip install -r requirements.txt
-    startCommand: python src/main.py ./config/peacepie.cfg
