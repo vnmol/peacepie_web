@@ -1,0 +1,2 @@
+{"class_desc": {"requires_dist": "simple_telegram_bot", "class": "SimpleTelegramActor"}, "name": "telegram"}
+/ask {"command": "recreate_actor", "body": {"node": "first.Process-2.admin", "entity": "web_face"}, "recipient": "first.MainProcess.admin"}
