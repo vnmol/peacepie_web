@@ -1,0 +1,10 @@
+simple_web_face-0.0.10.dist-info/BUNDLE,sha256=4DzmPKT0NKxNFxrRe2S3Nq113tP3eJI2fxLSo4WsbXI,16
+simple_web_face-0.0.10.dist-info/METADATA,sha256=oyRnPMcnUKRiKNTQkfw2bKyS9O895eh6Fu3aaPUeD4E,185
+simple_web_face-0.0.10.dist-info/RECORD,,
+simple_web_face-0.0.10.dist-info/WHEEL,sha256=aeYiig01lYGDzBgS8HxWXOg3uV61G9ijOsup-k9o1sk,91
+simple_web_face-0.0.10.dist-info/top_level.txt,sha256=pySlZ0aT7G8tYnzKpBBMlRXOKMmpBesSTAfnZlXHuJE,16
+simple_web_face/__init__.py,sha256=VL8uqU1MO7YsXBmgtTrNSL_dQZVEh-xg33uODf33s78,51
+simple_web_face/file_browser_handler.py,sha256=ptrYgAbunsj91wVnPBJsVVQPQFjBRx9rApxTFhVFKvw,32029
+simple_web_face/html_addons.py,sha256=7pHA6WqHHYD805tERmt8SQ5SS5Qu3KItpC5EPAHeSeg,3978
+simple_web_face/resources/favicon.ico,sha256=BJga3AJFaCbtwJRUZ70Nx8xG47t6U5bfMJ_ulXqLzNM,9662
+simple_web_face/web_face.py,sha256=sfjLN2f7TbaP-G3nC8qXQJ0PGOFksxock8IgaJHJyNc,7995

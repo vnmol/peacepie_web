@@ -1,0 +1,8 @@
+fastapi-0.128.0
+jinja2-3.1.6
+pydantic-2.13.4
+pyjwt-2.13.0
+python_multipart-0.0.32
+pyzmq-27.1.0
+uvicorn-0.49.0
+uvicorn[standard]-0.49.0

@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: simple_fastapi_dashboard
+Version: 0.0.2
+Author-email: Vladimir Molodtsov <vmol@mail.ru>
+Keywords: peacepie
+Requires-Dist: fastapi==0.128.0
+Requires-Dist: jinja2
+Requires-Dist: pyjwt
+Requires-Dist: python-multipart
+Requires-Dist: pyzmq
+Requires-Dist: pydantic
+Requires-Dist: uvicorn[standard]
