@@ -15,7 +15,7 @@ class AppStarter:
     async def start(self):
         #  await self.web_face()
         #  await self.auxiliaries()
-        await self.telegram()
+        #  await self.telegram()
         await self.simple_fastapi_dashboard()
         await self.adaptor.send(self.adaptor.get_msg('remove_actor', {'name': self.adaptor.name}))
 
