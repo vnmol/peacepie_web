@@ -35,8 +35,8 @@ class AppStarter:
         name = 'telegram'
         class_desc = {'requires_dist': 'simple_telegram_bot', 'class': 'SimpleTelegramActor'}
         body = {'class_desc': class_desc, 'name': name}
-        await self.adaptor.ask(self.adaptor.get_msg('create_actor', body), 300)
-        await self.adaptor.ask(self.adaptor.get_msg('start', None, name), 300)
+        await self.adaptor.ask(self.adaptor.get_msg('create_actor', body), 400)
+        await self.adaptor.ask(self.adaptor.get_msg('start', None, name), 400)
 
     async def simple_fastapi_dashboard(self):
         name = 'dashboard'
