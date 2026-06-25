@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: simple_telegram_bot
+Version: 0.0.4
+Author-email: Vladimir Molodtsov <vmol@mail.ru>
+Keywords: peacepie
+Requires-Dist: aiogram
